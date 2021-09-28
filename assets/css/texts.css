@@ -1,0 +1,14 @@
+.title {
+  color: var(--colorBlack);
+  font-size: 6rem;
+}
+.title--small {
+  color: var(--colorBlack);
+  font-size: 3.6rem;
+}
+
+p {
+  color: var(--colortextP);
+  font-size: 1.5rem;
+  font-weight: 200;
+}
