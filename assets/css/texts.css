@@ -14,12 +14,19 @@ p {
   font-weight: 200;
 }
 
-button.btn {
+.btn {
   background: var(--colorMain) !important;
   color: var(--colorWhite);
   padding: 1rem 4rem;
+  text-align: center;
   border-radius: 0.5rem;
   background: transparent;
   transition: all 0.3s linear;
   border: none;
+  max-width: fit-content;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
 }

@@ -1,6 +1,4 @@
 .explore {
-  display: flex;
-  justify-content: space-between;
   padding-top: 6rem;
 }
 .explore__form-content {
@@ -22,6 +20,7 @@ form.explore__form select {
 article.explore__content,
 article.explore__image {
   width: 50%;
+  padding: 0 1.5rem;
 }
 
 .explore__content .title {
@@ -37,4 +36,48 @@ article.explore__image {
   display: block;
   padding: 1.5rem 5.6rem;
   font-weight: 900;
+}
+
+article.explore__content p {
+  line-height: 2.5rem;
+  width: 80%;
+}
+
+.flex--verso {
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  main .flex,
+  main .flex--verso {
+    flex-direction: column;
+  }
+  section.explore article.explore__content,
+  section.explore article.explore__image {
+    margin: 0 auto;
+  }
+  section.explore article.explore__content,
+  section.explore article.explore__image {
+    width: 60%;
+  }
+}
+
+@media (max-width: 900px) {
+  form.explore__form select {
+    max-width: 27.8rem;
+  }
+  article.explore__image img {
+    max-width: 100%;
+    margin: 10rem auto;
+    text-align: center;
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  section.explore article.explore__content,
+  section.explore article.explore__image {
+    width: 90%;
+  }
 }
