@@ -1,0 +1,40 @@
+.explore {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6rem;
+}
+.explore__form-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 460px;
+}
+form.explore__form select {
+  max-width: 22rem;
+  display: block;
+  width: 100%;
+  padding: 1.3rem 1.3rem;
+  border: 0.1rem solid #afb0b9;
+  cursor: pointer;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+}
+article.explore__content,
+article.explore__image {
+  width: 50%;
+}
+
+.explore__content .title {
+  margin: 0 0 10rem 0;
+}
+
+.explore__content .title--small {
+  margin: 0 0 5rem 0;
+}
+
+.explore__content .btn {
+  margin: 3rem 0 0 0;
+  display: block;
+  padding: 1.5rem 5.6rem;
+  font-weight: 900;
+}
