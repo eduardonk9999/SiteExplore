@@ -5,6 +5,7 @@ section.destinations {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 0.5rem;
 }
 .destination {
   max-width: 26.1rem;
