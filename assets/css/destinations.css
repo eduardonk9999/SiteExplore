@@ -70,4 +70,7 @@ a.destination__btn i {
   .destination {
     margin: 1rem auto;
   }
+  a.destination__btn {
+    transform: translateY(-20px);
+  }
 }
