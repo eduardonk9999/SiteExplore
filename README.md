@@ -8,7 +8,7 @@
 </ul>  
 
 # Sobre o projeto
-<p>Projeto de exemplo de como construir um HTML Semântico e um CSS Responsivo, além de novas técnicas css como Grid, e como separar bem seu JS em functions...</p>
+<p>Projeto de exemplo de como construir um HTML Semântico e um CSS Responsivo, além de novas técnicas css como Grid, e como separar bem seu JS em functions.</p>
 
 # url
 https://eduardonk9999.github.io/SiteExplore/
